@@ -30,7 +30,8 @@ body {
     align-items: center;
     justify-content: space-between;
     margin: auto;
-    width: 960px;
+    min-width: calc(67% - 10px);
+    background: #ffffff;
 }
 
 .name {
@@ -72,7 +73,7 @@ body {
     border: solid #dddddd;
     padding: 20px;
     margin-top: 50px;
-    margin-bottom: 160px;
+    margin-bottom: 80px;
 }
 
 .image {
@@ -113,7 +114,8 @@ body {
     resize: vertical;
     border: 1px solid #999;
     padding: 10px 20px;
-    width:900px;
+    min-width: calc(100% - 10px);
+    margin: auto;
 }
 
 .button {
@@ -128,11 +130,14 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .gallery {
-    /* display: flex; */
     position: relative;
+    margin: 0;
+    padding: 0;
 }
 
 .text {
@@ -143,13 +148,15 @@ body {
     font-size: 20px;
     color: #ffffff;
     bottom: 20px;
-    width:290px;
+    max-width: calc(100% - 10px);
+    left: 0;
+    right: 0;
     padding: 10px;
     margin:10px;
 }
 
 .vader {
-    width: 290px;
+    max-width: calc(100% - 10px);
     height: 230px;
     margin: 10px;
 }
@@ -166,3 +173,63 @@ body {
     background: #666666;
     border-top: 8px solid #4aaaa5;
 }
+
+
+@media(max-width: 600px) {
+
+    .inner-header,
+    .gallery-main {
+        flex-direction: column;
+        align-items;: center;
+        /* align-items: flex-start; */
+    }
+
+    .column--mobile-1 {
+        width: calc(8.3333333333% - 20px);
+    }
+  
+    .column--mobile-2 {
+        width: calc(16.6666666667% - 20px);
+    }
+  
+    .column--mobile-3 {
+        width: calc(25% - 20px);
+    }
+  
+    .column--mobile-4 {
+        width: calc(33.3333333333% - 20px);
+    }
+  
+    .column--mobile-5 {
+        width: calc(41.6666666667% - 20px);
+    }
+  
+    .column--mobile-6 {
+        width: calc(50% - 20px);
+    }
+  
+    .column--mobile-7 {
+        width: calc(58.3333333333% - 20px);
+    }
+  
+    .column--mobile-8 {
+        width: calc(66.6666666667% - 20px);
+    }
+  
+    .column--mobile-9 {
+        width: calc(75% - 20px);
+    }
+  
+    .column--mobile-10 {
+        width: calc(83.3333333333% - 20px);
+    }
+  
+    .column--mobile-11 {
+        width: calc(91.6666666667% - 20px);
+    }
+  
+    .column--mobile-12 {
+        width: calc(100% - 10px);
+    }
+  }
+  
