@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Password Generator</title>
+
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Aldrich&display=swap" rel="stylesheet">
+	</head>
+	<body>
+
+        <header class='header column--mobile-12'>
+            <h1 class='heading-1 column--mobile-12'>Password Generator</h1>
+        </header>
+
+        <main class='main .column--mobile-12'>
+            <p class='explain'>
+                Please select the type of characters you wish to include in your password.
+                Then click "Generate password" and choose the length you desire.
+                To copy the generated password click "Copy to Clipboard".
+            </p>
+            <br>
+            <div class='check-boxes'>
+                <div class='check-lower-case'>
+                    <label type='name'>Lowercase</label>
+                    <input type='checkbox' class='lowercase' name='lowercases'>
+                </div>
+                <div class='check-upper-case'>
+                    <label type='name'>Uppercase</label>
+                    <input type='checkbox' class='uppercase' name='uppercases'>
+                </div>
+                <div class='check-num'>
+                    <label type='name'>Numbers</label>
+                    <input type='checkbox' class='number' name='numbers'>
+                </div>
+                <div class='check-symb'>
+                    <label type='name'>Special</label>
+                    <input type='checkbox' class='special' name='specials'>
+                </div>
+            </div>
+
+            <br>
+
+            <textarea readonly class='password column--mobile-12' placeholder='Your Secure Password' aria-label='Generated Password'></textarea>
+            <br>
+            <div class='buttons column--mobile-12'>
+                <button type='button' value='button-text' class='generate'>Generate Password</button>
+
+                <button type='button' value='button-copy' class='disable copy'> Copy to Clipboard </button>
+            </div>
+        </main>
+
+        <script src='script.js'></script>
+
+    </body>
+    
+</html>
