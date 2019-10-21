@@ -57,5 +57,3 @@ copyBtn.addEventListener('click', function(event){
     document.execCommand('copy');
     alert("Password copied to clipboard");
 })
-
-
