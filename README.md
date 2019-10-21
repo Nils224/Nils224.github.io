@@ -3,7 +3,7 @@
 ## Description
 
 This password generator allows the user to customise their own password within a given length.
-It has been disgned to show a few key concepts that Javascript can offer. I have included variables, prompts, if, if else statements, for loops, functions, event listeners and query selectors.
+It has been designed to show a few key concepts that Javascript can offer. I have included variables, prompts, if, if else statements, for loops, functions, event listeners and query selectors.
 
 ## Installation
 
