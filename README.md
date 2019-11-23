@@ -1,26 +1,22 @@
-# Password-Generator
+# Homework-week-1
 
-## Description
+## Description 
 
-This password generator allows the user to customise their own password within a given length.
-It has been designed to show a few key concepts that Javascript can offer. I have included variables, prompts, if, if else statements, for loops, functions, event listeners and query selectors.
+This is a website that showcases what I have learnt in the first two weeks of this coding bootcamp.
 
-## Installation
+Within the header we have a navigation bar which takes us to a different page. Each page demonstrates a different topic we covered in class, from simple understanding of html tags to flex box. 
 
-To access the password generator and have first hand usage then follow this link [nils224.github.io](https://nils224.github.io).
+The future of this project is to make it responsive and develop it further as I progress in the course. 
 
-## Usage
-To generate a password, select the type of characters you wish to include in your password.
-Then click "Generate password" and choose the length you desire in the prompt box.
-To copy the generated password click "Copy to Clipboard".
 
-![screenshot](assets/Screenshot-1.png)
+## Usage 
 
-![screenshot](assets/Screenshot-2.png)
+![ScreenShot](assets/images/Screenshot.png)
 
-![screenshot](assets/Screenshot-3.png)
 
-![screenshot](assets/Screenshot-4.png)
+## Link
+
+To experience the website first hand follow this link [Nils224.github.io/Homework-week-1/](https://nils224.github.io/Homework-week-1/).
 
 ## License
 
@@ -31,3 +27,22 @@ MIT License
 
 Copyright (c) [2019]
 
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---

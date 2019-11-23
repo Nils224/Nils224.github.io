@@ -54,7 +54,7 @@ body {
     padding: 10px 20px;
 }
 
-.about, .portfolio, .contact {
+.link {
     color: #777777;
     text-decoration: none;
     padding: 10px; 
@@ -68,7 +68,7 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     margin: auto;
-    width: 960px;
+    min-width: 960px;
     background: #ffffff;
     border: solid #dddddd;
     padding: 20px;

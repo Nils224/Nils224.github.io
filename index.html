@@ -1,59 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>Password Generator</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Portfolio</title>
+</head>
+<body>
 
-        <link rel="stylesheet" type="text/css" href="styles.css">
-        <link href="https://fonts.googleapis.com/css?family=Aldrich&display=swap" rel="stylesheet">
-	</head>
-	<body>
+    <div class="container">
+        
+        <header class="main-header">
+            <div class="inner-header column--mobile-12">
+                
+                <div class="name">
+                    Nilesh Patel
+                </div>
 
-        <header class='header column--mobile-12'>
-            <h1 class='heading-1 column--mobile-12'>Password Generator</h1>
-        </header>
+                <nav class="nav">
+                    <ul class="main-nav">
+                        <li><a href="index.html" class="about">About</a></li>
+                        <li><a href="portfolio.html" class="portfolio">Portfolio</a></li>
+                        <li><a href="contact.html" class="contact">Contact</a></li>
+                    </ul>
+                </nav>
 
-        <main class='main .column--mobile-12'>
-            <p class='explain'>
-                Please select the type of characters you wish to include in your password.
-                Then click "Generate password" and choose the length you desire.
-                To copy the generated password click "Copy to Clipboard".
-            </p>
-            <br>
-            <div class='check-boxes'>
-                <div class='check-lower-case'>
-                    <label type='name'>Lowercase</label>
-                    <input type='checkbox' class='lowercase' name='lowercases'>
-                </div>
-                <div class='check-upper-case'>
-                    <label type='name'>Uppercase</label>
-                    <input type='checkbox' class='uppercase' name='uppercases'>
-                </div>
-                <div class='check-num'>
-                    <label type='name'>Numbers</label>
-                    <input type='checkbox' class='number' name='numbers'>
-                </div>
-                <div class='check-symb'>
-                    <label type='name'>Special</label>
-                    <input type='checkbox' class='special' name='specials'>
-                </div>
             </div>
+        </header>
+        
+        <main class="main column--mobile-12">
+            <div class="content">
 
-            <br>
+                <h1 class="heading"> About Me </h1>
 
-            <textarea readonly class='password column--mobile-12' placeholder='Your Secure Password' aria-label='Generated Password'></textarea>
-            <br>
-            <div class='buttons column--mobile-12'>
-                <button type='button' value='button-text' class='generate'>Generate Password</button>
+                <img class="image" src="assets/images/nerd-face.png" alt="nerd-face"> 
 
-                <button type='button' value='button-copy' class='disable copy'> Copy to Clipboard </button>
+                <p class="profile_text"> 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim suscipit, quas velit obcaecati perspiciatis voluptatum modi dolore, cumque nisi nesciunt hic, vel fugit temporibus! Accusantium provident reprehenderit nihil repellendus id.
+                    Est itaque dolorem ratione enim. Perspiciatis ipsum itaque aliquid debitis eligendi vero! Accusantium, debitis ut libero dignissimos incidunt rem delectus harum nostrum ullam magnam possimus culpa alias est excepturi dolores?<br><br>
+                    Qui perspiciatis sint id dolores animi facilis quia optio voluptas doloribus impedit nam non, magnam iste, officia saepe ducimus debitis vitae similique. Ducimus enim minima perspiciatis, libero commodi suscipit porro?
+                    Animi incidunt dicta eos molestiae necessitatibus recusandae, facere, tempora doloribus officia illum laboriosam sit natus voluptas, itaque hic! Placeat officia quod repellat quam molestias sint magnam sed, labore illo quaerat?<br>
+                </p>
+                
             </div>
         </main>
 
-        <script src='script.js'></script>
+        <footer class="footer">
+            <p>Copyright ©</p>
+        </footer>
 
-    </body>
-    
+    </div>
+
+</body>
 </html>
