@@ -16,7 +16,7 @@ The future of this project is to make it responsive and develop it further as I 
 
 ## Link
 
-To experience the website first hand follow this link [Nils224.github.io/Homework-week-1/](https://nils224.github.io/Homework-week-1/).
+To experience the website first hand follow this link [Nils224.github.io](https://nils224.github.io).
 
 ## License
 
