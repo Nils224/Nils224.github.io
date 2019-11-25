@@ -315,15 +315,13 @@ body {
         text-align: justify;
         color: #777777;
         line-height: 20px;
-        font-size: 17px;
+        font-size: 18px;
         padding: 10px;
     }
 
 
     .mobile--12 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        width: calc(100% - 10px);
     }
 
     .text a {
@@ -354,8 +352,8 @@ body {
     }
 
     .profile-image {
-        justify-content: center;
-        width: auto;
+        display: block;
+        margin: auto;
         height: auto;
         padding: 10px;
     }
