@@ -26,7 +26,7 @@ Mobile screens will have a burger icon to switch between pages and navigate been
 
 ## Link
 
-To experience the website first hand follow this link [Nils224.github.io](https://nils224.github.io).
+To experience the website first hand follow this link ![Nils224.github.io](https://nils224.github.io).
 
 ## License
 

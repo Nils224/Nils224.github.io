@@ -14,7 +14,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 
     /* background: url("../images/cool-background-2.png") no-repeat center fixed; */
-    background: url("../images/IMG_8323.jpg");
+    background: url("../images/backgrounds/IMG_8323.jpg");
     background-size: cover;
     height: max-content;
     width: 100%;
@@ -133,7 +133,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: $stand-out;
     border-bottom: solid $offWhite;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .profile_text {
@@ -143,6 +144,24 @@ body {
     line-height: 40px;
     font-size: 20px;
     padding: 10px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.index-icon {
+    width: 35x;
+    height: 35px;
+    margin: 0 5px;
+
+    &:hover {
+        transform: scale(1.4);
+        transition: 1.5s;
+    }
 }
 
 .group {
@@ -178,7 +197,7 @@ body {
     margin: 10px 0 5px 0;
     padding: 10px 20px;
     border-radius: 10px;
-    width: 10%;
+    width: 20%;
     cursor: pointer;
 }
 
@@ -195,14 +214,14 @@ body {
 .gallery {
     position: relative;
     height: 100%;
-    margin: 10px;
+    // margin: 10px;
     padding: 0;
 }
 
 .image {
-    max-width: 100%;
-    height: 250px;
+    min-width: 100%;
     margin: 10px;
+    border-radius: 10px;
 }
 
 /* img:hover {
@@ -222,7 +241,7 @@ body {
         font-size: 1.3em;
         color: $offWhite;
         bottom: 20px;
-        max-width: calc(100% - 10px);
+        width: 100%;
         left: 0;
         right: 0;
         padding: 10px;
@@ -256,23 +275,6 @@ body {
     width: 70%;
 } */
 
-.icons {
-    display: flex;
-    justify-content: space-around;
-    width: 90%;
-    margin: 10px auto;
-}
-
-.index-icon {
-    width: 35x;
-    height: 35px;
-    margin: 0 5px;
-
-    &:hover {
-        transform: scale(1.4);
-        transition: 1.5s;
-    }
-}
 
 .footer {
     position: fixed;
@@ -307,12 +309,17 @@ body {
 
 @media (max-width: 991px) {
     .navbar ul {
-        padding: 0 10px;
+        padding: 0 5px;
 
         li a {
             min-width: 100px;
             padding: 0 20px;
         }
+    }
+
+    .submit-btn {
+        width: 20%;
+        align-items: center;
     }
 }
 
@@ -485,6 +492,7 @@ body {
         /* display: flex;
         flex-direction: column; */
         justify-content: center;
+        width: 100%;
     }
 
     .footer-content {
