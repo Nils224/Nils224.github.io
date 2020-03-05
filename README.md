@@ -10,19 +10,11 @@ It have been made responsive for mobile first use.
 
 ## Usage 
 
-![ScreenShot](assets/images/Screenshots/Screenshot-Profile.png)
+![ScreenShot](assets/images/README_IMAGES/desktop.png)
 
-![ScreenShot](assets/images/Screenshots/contact-screenshot.png)
-
-![ScreenShot](assets/images/Screenshots/Portfolio-screenshot.png)
+![ScreenShot](assets/images/README_IMAGES/mobile-nav.png)
 
 Mobile screens will have a burger icon to switch between pages and navigate been pages.
-
-![ScreenShot](assets/images/Screenshots/Screenshot-resonsive.png)
-
-![ScreenShot](assets/images/Screenshots/Screenshot-responsive-nav.png)
-
-
 
 ## Link
 
